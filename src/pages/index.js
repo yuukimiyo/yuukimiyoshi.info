@@ -20,6 +20,7 @@ const IndexPage = () => (
         </h1>
         <p>{config.subHeading}</p>
         <ul className="actions">
+          {/*
           <li>
             <a
               href="https://github.com/anubhavsrivastava/gatsby-starter-fractal/archive/master.zip"
@@ -28,6 +29,7 @@ const IndexPage = () => (
               Download Starter
             </a>
           </li>
+          */}
           <li>
             <Scroll type="id" element="one">
               <a href="#one" className="button icon fa-chevron-down">
