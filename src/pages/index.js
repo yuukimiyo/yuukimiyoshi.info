@@ -12,6 +12,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import qiitaLogo from '../assets/images/qiita_400x400.png';
 import pinterestLogo from '../assets/images/pinterest_400x400.png';
+import instagramLogo from '../assets/images/instagram_400x400.png';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -21,7 +22,7 @@ const IndexPage = () => (
         <h1>
           <a href="/#">{config.heading}</a>
         </h1>
-        <p>情報会社の社内SEです<br />Webサイト構築と写真撮影がライフワークです</p>
+        <p>金融情報会社の社内SEです<br />Webサイト構築と写真撮影がライフワークです</p>
         <p>Full time In-House System Developper on Information-vender.<br />Part time Web Engineer /  Amature Photograper.</p>
         <ul className="actions">
           <li>
@@ -43,8 +44,8 @@ const IndexPage = () => (
     <section id="one" className="wrapper style2 special">
       <header className="major">
         <h2>
-            利用しているウェブサービスの一覧です<br />
-            Index of my Internet life.
+            Index of my Internet life.<br />
+            利用しているウェブサービス一覧
         </h2>
       </header>
       <ul className="icons major">
@@ -73,12 +74,18 @@ const IndexPage = () => (
 
     <section id="two" className="wrapper">
       <div className="inner alt">
+
+        {/* Qiita */}
         <section className="spotlight">
           <div className="image">
             <img src={qiitaLogo} alt="" />
           </div>
           <div className="content">
-            <h3>技術記事 / Technical Essay.</h3>
+            <h3>
+              <a href="https://qiita.com/YuukiMiyoshi" target="_blank">
+                Technical Essay / 技術記事
+                </a>
+            </h3>
             <span>qiita.com [ Japanese ] Since 2014</span>
             <p>
               データ分析やWeb技術についての記事を定期的に投稿しています。<br />
@@ -86,28 +93,37 @@ const IndexPage = () => (
             </p>
           </div>
         </section>
+
+        {/* Pinterest */}
         <section className="spotlight">
           <div className="image">
             <img src={pinterestLogo} alt="" />
           </div>
           <div className="content">
             <h3>
-              <a href="https://www.pinterest.jp/yuukimiyo/boards/">
-                Catalogue of Great Photographers.
+              <a href="https://www.pinterest.jp/yuukimiyo/boards/" target="_blank">
+                Index of Great Photographers / 写真家一覧
               </a>
             </h3>
             <span>Pinterest [ English ] Since 2013</span>
             <p>
-              I'v using Pintarest to collect photos of famous photographers.<br />My favorite photographer is Ansel adams.
+              I'v using Pintarest to collect photos of famous photographers.<br />
+              My favorite is <i>Annie Leibovitz</i> and <i>Ansel adams</i>.
+            </p>
+            <p>
+              ピンタレストのボード機能で著名写真家の一覧を作成しています。<br />
+              お気に入りはアニー・リーボビッツとアンセル・アダムスです。
             </p>
           </div>
         </section>
+
+        {/* Instagram */}
         <section className="spotlight">
           <div className="image">
-            <img src={pic3} alt="" />
+            <img src={instagramLogo} alt="" />
           </div>
           <div className="content">
-            <h3>Aliquam sed magna</h3>
+            <h3>Photos of Fashon-shop windows / 銀座マネキン</h3>
             <p>
               Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
               elementum elit fusce accumsan dui libero, quis vehicula lectus
