@@ -5,10 +5,13 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
-import screen from '../assets/images/screen.png';
+// import screen from '../assets/images/screen.png';
+import screen from '../assets/images/portfolio_bw_240x320.jpg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import qiitaLogo from '../assets/images/qiita_400x400.png';
+import pinterestLogo from '../assets/images/pinterest_400x400.png';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -18,28 +21,19 @@ const IndexPage = () => (
         <h1>
           <a href="/#">{config.heading}</a>
         </h1>
-        <p>{config.subHeading}</p>
+        <p>情報会社の社内SEです<br />Webサイト構築と写真撮影がライフワークです</p>
+        <p>Full time In-House System Developper on Information-vender.<br />Part time Web Engineer /  Amature Photograper.</p>
         <ul className="actions">
-          {/*
-          <li>
-            <a
-              href="https://github.com/anubhavsrivastava/gatsby-starter-fractal/archive/master.zip"
-              className="button primary icon fa-download"
-            >
-              Download Starter
-            </a>
-          </li>
-          */}
           <li>
             <Scroll type="id" element="one">
               <a href="#one" className="button icon fa-chevron-down">
-                Learn More
+                Read More
               </a>
             </Scroll>
           </li>
         </ul>
       </div>
-      <div className="image phone">
+      <div className="image right">
         <div className="inner">
           <img src={screen} alt="" />
         </div>
@@ -49,25 +43,29 @@ const IndexPage = () => (
     <section id="one" className="wrapper style2 special">
       <header className="major">
         <h2>
-          Sed ipsum magna lorem tempus amet
-          <br />
-          vehicula et gravida elementum
+            利用しているウェブサービスの一覧です<br />
+            Index of my Internet life.
         </h2>
       </header>
       <ul className="icons major">
+        <li>
+          <span className="icon fa-pencil-square-o">
+            <span className="label">Pen</span>
+          </span>
+        </li>
         <li>
           <span className="icon fa-camera-retro">
             <span className="label">Shoot</span>
           </span>
         </li>
         <li>
-          <span className="icon fa-refresh">
-            <span className="label">Process</span>
+          <span className="icon fa-book">
+            <span className="label">Book</span>
           </span>
         </li>
         <li>
-          <span className="icon fa-cloud">
-            <span className="label">Upload</span>
+          <span className="icon fa-youtube-square">
+            <span className="label">Video</span>
           </span>
         </li>
       </ul>
@@ -77,29 +75,30 @@ const IndexPage = () => (
       <div className="inner alt">
         <section className="spotlight">
           <div className="image">
-            <img src={pic1} alt="" />
+            <img src={qiitaLogo} alt="" />
           </div>
           <div className="content">
-            <h3>Magna sed ultrices</h3>
+            <h3>技術記事 / Technical Essay.</h3>
+            <span>qiita.com [ Japanese ] Since 2014</span>
             <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
+              データ分析やWeb技術についての記事を定期的に投稿しています。<br />
+              React / Python / Golang / R / Data Analyze
             </p>
           </div>
         </section>
         <section className="spotlight">
           <div className="image">
-            <img src={pic2} alt="" />
+            <img src={pinterestLogo} alt="" />
           </div>
           <div className="content">
-            <h3>Ultrices nullam aliquam</h3>
+            <h3>
+              <a href="https://www.pinterest.jp/yuukimiyo/boards/">
+                Catalogue of Great Photographers.
+              </a>
+            </h3>
+            <span>Pinterest [ English ] Since 2013</span>
             <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
+              I'v using Pintarest to collect photos of famous photographers.<br />My favorite photographer is Ansel adams.
             </p>
           </div>
         </section>
