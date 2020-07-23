@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Fractal', // <title>
-  manifestName: 'Fractal',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'yuukimiyoshi.com', // <title>
+  manifestName: 'yuuki miyoshi',
+  manifestShortName: 'ymiyoshi', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-fractal/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Yuuki Miyoshi',
+  subHeading: 'Full time In-house System Developper. Part time Web Developper.  ',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/yuukimiyo',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/yuuki_miyo',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/yuukimiyo',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:miyo.yuuki@gmail.com',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '',
+  address: 'Utsunomiya-shi Tochigi-ken Japan.',
 };
