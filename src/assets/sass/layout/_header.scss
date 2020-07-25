@@ -7,8 +7,10 @@
 /* Header */
 
 #header {
+
   // @include color(accent1);
-  @include color(accentMe);
+  @include color(accentCustom);
+
   @include padding(4.5em, 0);
   @include vendor('align-items', 'center');
   @include vendor('display', 'flex');

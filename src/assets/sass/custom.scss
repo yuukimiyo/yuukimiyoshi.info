@@ -1,0 +1,12 @@
+@import 'libs/vars';
+@import 'libs/functions';
+
+.spotlight {
+  .content {
+    .serviceinfo {
+      margin-top: -32px;
+      margin-bottom: 32px;
+      color: _palette(fg-bold);
+    }
+  }
+}

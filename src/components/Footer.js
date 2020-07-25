@@ -16,7 +16,8 @@ export default function Footer() {
         })}
       </ul>
       <p className="copyright">
-        &copy; Fractals. Credits: <a href="http://html5up.net">HTML5 UP</a>
+        &copy; Yuuki Miyoshi<br />
+        (Gatsby starter:<a href="https://github.com/anubhavsrivastava/gatsby-starter-fractal">gatsby-starter-fractal</a>, Original HTML/CSS Theme : Fractal by <a href="http://html5up.net">HTML5 UP</a>)
       </p>
     </footer>
   );

@@ -3,27 +3,33 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import config from '../../config';
+// import config from '../../config';
 import Footer from '../components/Footer';
-// import screen from '../assets/images/screen.png';
+
+// portfolio img
 import screen from '../assets/images/portfolio_bw_240x320.jpg';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+
+// spotlight logs
 import qiitaLogo from '../assets/images/qiita_400x400.png';
 import pinterestLogo from '../assets/images/pinterest_400x400.png';
 import instagramLogo from '../assets/images/instagram_400x400.png';
-import { Link } from 'gatsby';
+import adobePortfolioLogo from '../assets/images/adobe-portfolio_400x400.png';
+
+// import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout>
     <header id="header">
       <div className="content">
-        <h1>
-          <a href="/#">{config.heading}</a>
-        </h1>
-        <p>金融情報会社の社内SEです<br />Webサイト構築と写真撮影がライフワークです</p>
-        <p>Full time In-House System Developper on Information-vender.<br />Part time Web Engineer /  Amature Photograper.</p>
+        <h1>Yuuki Miyoshi / 三好悠樹</h1>
+        <p>
+          Full time In-House System Developper on Financial company.<br />
+          Part time Web Engineer /  Amature Photograper.
+        </p>
+        <p>
+          金融系企業の社内開発者です<br />
+          Webサイト構築と写真撮影がライフワークです
+        </p>
         <ul className="actions">
           <li>
             <Scroll type="id" element="one">
@@ -75,25 +81,6 @@ const IndexPage = () => (
     <section id="two" className="wrapper">
       <div className="inner alt">
 
-        {/* Qiita */}
-        <section className="spotlight">
-          <div className="image">
-            <img src={qiitaLogo} alt="" />
-          </div>
-          <div className="content">
-            <h3>
-              <a href="https://qiita.com/YuukiMiyoshi" target="_blank">
-                Technical Essay / 技術記事
-                </a>
-            </h3>
-            <span>qiita.com [ Japanese ] Since 2014</span>
-            <p>
-              データ分析やWeb技術についての記事を定期的に投稿しています。<br />
-              React / Python / Golang / R / Data Analyze
-            </p>
-          </div>
-        </section>
-
         {/* Pinterest */}
         <section className="spotlight">
           <div className="image">
@@ -101,13 +88,13 @@ const IndexPage = () => (
           </div>
           <div className="content">
             <h3>
-              <a href="https://www.pinterest.jp/yuukimiyo/boards/" target="_blank">
-                Index of Great Photographers / 写真家一覧
+              <a href="https://www.pinterest.jp/yuukimiyo/boards/" target="_blank" rel="noreferrer">
+                Boards of Great Photographer / 写真家一覧
               </a>
             </h3>
-            <span>Pinterest [ English ] Since 2013</span>
+            <div className="serviceinfo">Pinterest [ English ] Since 2013</div>
             <p>
-              I'v using Pintarest to collect photos of famous photographers.<br />
+              I'v been using Pintarest to collect photos of famous photographers.<br />
               My favorite is <i>Annie Leibovitz</i> and <i>Ansel adams</i>.
             </p>
             <p>
@@ -123,47 +110,71 @@ const IndexPage = () => (
             <img src={instagramLogo} alt="" />
           </div>
           <div className="content">
-            <h3>Photos of Fashon-shop windows / 銀座マネキン</h3>
+            <h3>
+              <a href="https://www.instagram.com/yuuki.miyo/" target="_blank" rel="noreferrer">
+                Photos of Fashon-shop windows / 銀座マネキン
+              </a>
+            </h3>
+            <div className="serviceinfo">Instagram [ English ] Since 2017</div>
             <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
+              Mainly, Monochrome Photos of Mannequin<br />in Ginza or Nihonbashi in Japan.
+            </p>
+            <p>
+              銀座や日本橋のマネキンや彫刻などの<br />
+              モノクロ写真を中心に投稿しています。
             </p>
           </div>
         </section>
+
+        {/* Adobe portfolio */}
+        <section className="spotlight">
+          <div className="image">
+            <img src={adobePortfolioLogo} alt="" />
+          </div>
+          <div className="content">
+            <h3>
+              <a href="https://ymiyo.myportfolio.com/" target="_blank" rel="noreferrer">
+                My Photos for Wallpaper
+              </a>
+            </h3>
+            <div className="serviceinfo">Adobe Portfolio [ English ] Since 2020</div>
+            <p>
+              A part of my photos as wallpaper size.<br />
+              Adobe Portfolio is good service for photographer who using Lightroom CC.
+            </p>
+            <p>
+              撮りためた写真の一部を壁紙サイズで掲載しています。<br />
+              Adobe Portfolioを利用しています。
+            </p>
+          </div>
+        </section>
+
+        {/* Qiita */}
+        <section className="spotlight">
+          <div className="image">
+            <img src={qiitaLogo} alt="" />
+          </div>
+          <div className="content">
+            <h3>
+              <a href="https://qiita.com/YuukiMiyoshi" target="_blank" rel="noreferrer">
+                Technical Essay / 技術記事
+                </a>
+            </h3>
+            <div className="serviceinfo">qiita.com [ Japanese ] Since 2014</div>
+            <p>
+              データ分析やWeb技術についての記事を定期的に投稿しています。<br />
+              React / Python / Golang / R / Data Analyze
+            </p>
+          </div>
+        </section>
+
         <section className="special">
-          <ul className="icons labeled">
-            <li>
-              <span className="icon fa-camera-retro">
-                <span className="label">Ipsum lorem accumsan</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-refresh">
-                <span className="label">Sed vehicula elementum</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-cloud">
-                <span className="label">Elit fusce consequat</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-code">
-                <span className="label">Lorem nullam tempus</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-desktop">
-                <span className="label">Adipiscing amet sapien</span>
-              </span>
-            </li>
-          </ul>
+          <p>For better internet life, I'm always looking for cool web services and tools.</p>
         </section>
       </div>
     </section>
 
+    {/*
     <section id="three" className="wrapper style2 special">
       <header className="major">
         <h2>Elements Page</h2>
@@ -177,6 +188,7 @@ const IndexPage = () => (
         </li>
       </ul>
     </section>
+    */}
 
     <Footer />
   </Layout>
