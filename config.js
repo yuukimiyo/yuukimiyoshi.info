@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'yuukimiyoshi.com', // <title>
+  siteTitle: 'yuukimiyoshi.info', // <title>
   manifestName: 'yuuki miyoshi',
   manifestShortName: 'ymiyoshi', // max 12 characters
   manifestStartUrl: '/',
