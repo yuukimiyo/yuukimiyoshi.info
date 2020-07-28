@@ -6,6 +6,13 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-56228509-2",
+        head: true,
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
