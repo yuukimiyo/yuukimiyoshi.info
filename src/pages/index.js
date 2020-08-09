@@ -51,8 +51,7 @@ const IndexPage = () => (
     <section id="one" className="wrapper style2 special">
       <header className="major">
         <h2>
-            Index of my Internet life.<br />
-            利用しているウェブサービス一覧
+            My Internet activities.
         </h2>
       </header>
       <ul className="icons major">
@@ -93,14 +92,14 @@ const IndexPage = () => (
                 Great Photographers / 写真家一覧
               </a>
             </h3>
-            <div className="serviceinfo">[Pinterest, Since 2013]</div>
+            {/* <div className="serviceinfo">[Pinterest, Since 2013]</div> */}
             <p>
               Pintarest Boards of famous photographers.<br />
               My favorite is <i>Annie Leibovitz</i> and <i>Ansel adams</i>.
             </p>
             <p>
-              ピンタレストのボード機能で著名写真家の一覧を作成しています<br />
-              お気に入りはアニー・リーボビッツとアンセル・アダムスです
+              ピンタレストのボード機能で著名写真家の一覧を作成中です<br />
+              お気に入りはアニー・リーボビッツとアンセル・アダムス
             </p>
           </div>
         </section>
@@ -116,13 +115,13 @@ const IndexPage = () => (
                 Fashon-shop windows / 銀座マネキン
               </a>
             </h3>
-            <div className="serviceinfo">[Instagram, Since 2017]</div>
+            {/* <div className="serviceinfo">[Instagram, Since 2017]</div> */}
             <p>
-              Mainly, Monochrome Photos of Mannequin<br />in Ginza or Nihonbashi in Japan.
+              Monochrome photos of shop window<br />
+              in Ginza or Nihonbashi in Japan.
             </p>
             <p>
-              銀座や日本橋のマネキンや彫刻などの<br />
-              モノクロ写真を中心に投稿しています
+              銀座や日本橋のマネキンや彫刻を中心に投稿しています
             </p>
           </div>
         </section>
@@ -138,7 +137,7 @@ const IndexPage = () => (
                 My Photos for Wallpaper
               </a>
             </h3>
-            <div className="serviceinfo">[Adobe Portfolio, Since 2020]</div>
+            {/* <div className="serviceinfo">[Adobe Portfolio, Since 2020]</div> */}
             <p>
               My photos as wallpaper size.
             </p>
@@ -157,10 +156,10 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://bookshelf.ymiyo.com" target="_blank" rel="noreferrer">
-                Book log / Y.MIYO本棚
+                My Book Review / Y.MIYO本棚
                 </a>
             </h3>
-            <div className="serviceinfo">[Gatsby site, Since 2020]</div>
+            {/* <div className="serviceinfo">[Gatsby site, Since 2020]</div> */}
             <p>
               いくつかのサービスに散らばっていた読書メモを<br />
               Gatsbyで作成したサイトにまとめています
@@ -179,7 +178,7 @@ const IndexPage = () => (
                 Technical Essay / 技術記事
                 </a>
             </h3>
-            <div className="serviceinfo">[qiita.com, Since 2014]</div>
+            {/* <div className="serviceinfo">[qiita.com, Since 2014]</div> */}
             <p>
               データ分析やWeb技術についての記事を定期的に投稿しています<br />
               React / Python / Golang / R / Data Analyze
