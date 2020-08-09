@@ -7,10 +7,11 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
 // portfolio img
-import screen from '../assets/images/portfolio_bw_240x320.jpg';
+import screen from '../assets/images/portfolio2_bw_240x360.jpg';
 
 // spotlight logs
-import qiitaLogo from '../assets/images/qiita_400x400.png';
+import qiitaLogo from '../assets/images/qiitaMypage_400x400.png';
+import bookshelfLogo from '../assets/images/bookshelf_400x400.png';
 import pinterestLogo from '../assets/images/pinterest_400x400.png';
 import instagramLogo from '../assets/images/instagram_400x400.png';
 import adobePortfolioLogo from '../assets/images/adobe-portfolio_400x400.png';
@@ -21,9 +22,9 @@ const IndexPage = () => (
   <Layout>
     <header id="header">
       <div className="content">
-        <h1>Yuuki Miyoshi / 三好悠樹</h1>
+        <h1>Yuuki Miyoshi / 三好 悠樹</h1>
         <p>
-          Full time In-House System Developper on Financial company.<br />
+          Full time in-house developper on financial data company.<br />
           Part time Web Engineer /  Amature Photograper.
         </p>
         <p>
@@ -89,17 +90,17 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://www.pinterest.jp/yuukimiyo/boards/" target="_blank" rel="noreferrer">
-                Boards of Great Photographer / 写真家一覧
+                Great Photographers / 写真家一覧
               </a>
             </h3>
-            <div className="serviceinfo">Pinterest [ English ] Since 2013</div>
+            <div className="serviceinfo">[Pinterest, Since 2013]</div>
             <p>
-              I'v been using Pintarest to collect photos of famous photographers.<br />
+              Pintarest Boards of famous photographers.<br />
               My favorite is <i>Annie Leibovitz</i> and <i>Ansel adams</i>.
             </p>
             <p>
-              ピンタレストのボード機能で著名写真家の一覧を作成しています。<br />
-              お気に入りはアニー・リーボビッツとアンセル・アダムスです。
+              ピンタレストのボード機能で著名写真家の一覧を作成しています<br />
+              お気に入りはアニー・リーボビッツとアンセル・アダムスです
             </p>
           </div>
         </section>
@@ -112,16 +113,16 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://www.instagram.com/yuuki.miyo/" target="_blank" rel="noreferrer">
-                Photos of Fashon-shop windows / 銀座マネキン
+                Fashon-shop windows / 銀座マネキン
               </a>
             </h3>
-            <div className="serviceinfo">Instagram [ English ] Since 2017</div>
+            <div className="serviceinfo">[Instagram, Since 2017]</div>
             <p>
               Mainly, Monochrome Photos of Mannequin<br />in Ginza or Nihonbashi in Japan.
             </p>
             <p>
               銀座や日本橋のマネキンや彫刻などの<br />
-              モノクロ写真を中心に投稿しています。
+              モノクロ写真を中心に投稿しています
             </p>
           </div>
         </section>
@@ -137,14 +138,32 @@ const IndexPage = () => (
                 My Photos for Wallpaper
               </a>
             </h3>
-            <div className="serviceinfo">Adobe Portfolio [ English ] Since 2020</div>
+            <div className="serviceinfo">[Adobe Portfolio, Since 2020]</div>
             <p>
-              A part of my photos as wallpaper size.<br />
-              Adobe Portfolio is good service for photographer who using Lightroom CC.
+              My photos as wallpaper size.
             </p>
             <p>
-              撮りためた写真の一部を壁紙サイズで掲載しています。<br />
-              Adobe Portfolioを利用しています。
+              撮りためた写真の一部を壁紙サイズで掲載しています<br />
+              Adobe Portfolioを利用しています
+            </p>
+          </div>
+        </section>
+
+        {/* bookshelf.ymiyo.com */}
+        <section className="spotlight">
+          <div className="image">
+            <img src={bookshelfLogo} alt="" />
+          </div>
+          <div className="content">
+            <h3>
+              <a href="https://bookshelf.ymiyo.com" target="_blank" rel="noreferrer">
+                Book log / Y.MIYO本棚
+                </a>
+            </h3>
+            <div className="serviceinfo">[Gatsby site, Since 2020]</div>
+            <p>
+              いくつかのサービスに散らばっていた読書メモを<br />
+              Gatsbyで作成したサイトにまとめています
             </p>
           </div>
         </section>
@@ -160,9 +179,9 @@ const IndexPage = () => (
                 Technical Essay / 技術記事
                 </a>
             </h3>
-            <div className="serviceinfo">qiita.com [ Japanese ] Since 2014</div>
+            <div className="serviceinfo">[qiita.com, Since 2014]</div>
             <p>
-              データ分析やWeb技術についての記事を定期的に投稿しています。<br />
+              データ分析やWeb技術についての記事を定期的に投稿しています<br />
               React / Python / Golang / R / Data Analyze
             </p>
           </div>

@@ -4,9 +4,13 @@
 .spotlight {
   .content {
     .serviceinfo {
-      margin-top: -32px;
+      margin-top: -28px;
       margin-bottom: 32px;
       color: _palette(fg-bold);
+			// Small.
+      @include breakpoint('<=medium') {
+        margin-top: -16px;
+      }
     }
   }
 }
