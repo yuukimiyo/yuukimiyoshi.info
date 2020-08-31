@@ -7,7 +7,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
 // portfolio img
-import screen from '../assets/images/portfolio2_bw_240x360.jpg';
+import screen from '../assets/images/portfolio3_bw_240x360.jpg';
 
 // spotlight logs
 import qiitaLogo from '../assets/images/qiitaMypage_400x400.png';
@@ -89,7 +89,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://www.pinterest.jp/yuukimiyo/boards/" target="_blank" rel="noreferrer">
-                Great Photographers / 写真家一覧
+                Great Photographers
               </a>
             </h3>
             {/* <div className="serviceinfo">[Pinterest, Since 2013]</div> */}
@@ -98,7 +98,7 @@ const IndexPage = () => (
               My favorite is <i>Annie Leibovitz</i> and <i>Ansel adams</i>.
             </p>
             <p>
-              ピンタレストのボード機能で著名写真家の一覧を作成中です<br />
+              ピンタレストのボード機能で著名写真家の一覧を作成しています<br />
               お気に入りはアニー・リーボビッツとアンセル・アダムス
             </p>
           </div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://www.instagram.com/yuuki.miyo/" target="_blank" rel="noreferrer">
-                Fashon-shop windows / 銀座マネキン
+                Photos of fashon-shop windows
               </a>
             </h3>
             {/* <div className="serviceinfo">[Instagram, Since 2017]</div> */}
@@ -134,7 +134,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://ymiyo.myportfolio.com/" target="_blank" rel="noreferrer">
-                My Photos for Wallpaper
+                Photos for Wallpaper
               </a>
             </h3>
             {/* <div className="serviceinfo">[Adobe Portfolio, Since 2020]</div> */}
@@ -156,7 +156,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://bookshelf.ymiyo.com" target="_blank" rel="noreferrer">
-                My Book Review / Y.MIYO本棚
+                Book review
                 </a>
             </h3>
             {/* <div className="serviceinfo">[Gatsby site, Since 2020]</div> */}
@@ -175,7 +175,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>
               <a href="https://qiita.com/YuukiMiyoshi" target="_blank" rel="noreferrer">
-                Technical Essay / 技術記事
+                Technical essay
                 </a>
             </h3>
             {/* <div className="serviceinfo">[qiita.com, Since 2014]</div> */}
