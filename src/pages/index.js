@@ -27,10 +27,6 @@ const IndexPage = () => (
           Full time in-house developper on financial data company.<br />
           Part time Web Engineer /  Amature Photograper.
         </p>
-        <p>
-          金融系企業の社内開発者です<br />
-          Webサイト構築と写真撮影がライフワークです
-        </p>
         <ul className="actions">
           <li>
             <Scroll type="id" element="one">
